@@ -35,7 +35,7 @@ namespace Model
             else
                 City = city;
 
-            if (pages < 0)
+            if (pages <= 0)
                 throw new ArgumentOutOfRangeException("Неверное количество страниц");
             else
                 Pages = pages;
