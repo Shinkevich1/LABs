@@ -26,7 +26,7 @@ namespace Model
             else
                 NameMag = mameMag;
 
-            if (number < 0)
+            if (number <= 0)
                 throw new ArgumentOutOfRangeException("Неверный номер журнала");
             else
                 Number = number;
