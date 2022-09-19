@@ -36,7 +36,7 @@ namespace Model
             else
                 Name = name;
 
-            if (year < 0 || year > 2021)
+            if (year <= 0 || year > 2021)
                 throw new ArgumentOutOfRangeException("Неверный год издания");
             else
                 Year = year;
